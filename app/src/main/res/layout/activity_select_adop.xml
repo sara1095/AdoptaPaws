@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Selecciona"
+            android:textSize="36dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="una opción"
+            android:textSize="36dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/textIniciar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="¿Qué compañero deseas para tu vida?"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/icon1"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+        <Button
+            android:id="@+id/buttonPerro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Perro"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/icon4"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/buttonGato"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Gato"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

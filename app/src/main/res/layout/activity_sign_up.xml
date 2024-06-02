@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="58dp"
+            android:text="Iniciar"
+            android:textSize="36dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="sesion"
+            android:textSize="36dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/textIniciar"/>
+        
+        <EditText
+            android:id="@+id/textUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Usuario o correo electrónico"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="@dimen/button_padding"
+            android:background="@drawable/edittext"/>
+
+        <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Contraseña"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="@dimen/button_padding"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext"/>
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:background="@color/buttonColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Iniciar Sesiòn"
+            android:layout_below="@+id/textPassword"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:id="@+id/textRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:text="¿No tienes una cuenta?"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/textIniciar"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Regístrate"
+            android:textSize="18dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/buttonColor"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

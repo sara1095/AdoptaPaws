@@ -1,0 +1,16 @@
+<!-- edittext_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/white" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/borderColor"/>
+        <corners android:radius="10dp"/>
+
+    <selector>
+        <item android:state_pressed="true" android:color="@color/colorPrimOscuro"/>
+        <item android:color="@color/colorPrimario"/>
+    </selector>
+</shape>
+

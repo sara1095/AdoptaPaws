@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="Compromiso de"
+            android:textColor="@color/textColor"
+            android:textSize="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="Adopción"
+            android:textColor="@color/textColor"
+            android:textSize="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:text="Al adoptar, me comprometo a:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="1. Proporcionarle un hogar seguro, limpio y adecuado, así como satisfacer todas sus necesidades básicas, incluyendo alimentación adecuada, agua fresca, atención médica veterinaria y ejercicio regular."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:text="2. Asumir la responsabilidad total por su salud y bienestar, garantizando su protección y evitando cualquier forma de maltrato, abuso o negligencia."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:text="3. Llevarlo a revisiones veterinarias periódicas, cumplir con las vacunaciones y tratamientos preventivos necesarios para su salud."
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonContinuar"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:hint="Continuar"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

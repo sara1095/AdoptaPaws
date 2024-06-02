@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627033315176",
+    "project_id": "adoptapaws-4d4df",
+    "storage_bucket": "adoptapaws-4d4df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627033315176:android:bb1b455a7fed9046eda8dd",
+        "android_client_info": {
+          "package_name": "com.example.aplicacinmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfuWTLBzLYi67Pz2fFvpTWCpZeelkIkHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
