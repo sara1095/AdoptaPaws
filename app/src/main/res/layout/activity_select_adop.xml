@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:text="Selecciona"
             android:textSize="36dp"
             android:textColor="@color/textColor"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:text="¿Qué compañero deseas para tu vida?"
             android:textSize="20dp"
             android:textColor="@color/black"/>
