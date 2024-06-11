@@ -8,9 +8,5 @@
         android:color="@color/borderColor"/>
         <corners android:radius="10dp"/>
 
-    <selector>
-        <item android:state_pressed="true" android:color="@color/colorPrimOscuro"/>
-        <item android:color="@color/colorPrimario"/>
-    </selector>
 </shape>
 
